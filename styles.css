@@ -1,1 +1,93 @@
-/* Copy and paste your CSS from CodePen into here */
+body {
+    background-image: url("https://www.filepicker.io/api/file/bFmSonQ5Tqu3bkpZXgfH/convert?cache=true&crop=0%2C0%2C1919%2C1080");
+    color: white;
+    font-family: system-ui;
+    text-align: center;
+  }
+  
+  .navbar {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+  }
+  
+  .navbar a {
+  
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  
+  .navbar a:hover {
+    background-color:rgba(161, 161, 161, 0.6);
+  }
+  
+  #title {
+    font-size: 5vw;
+  }
+  
+  #image {
+     display: block;
+     height: auto; 
+     margin-left: auto;
+     margin-right: auto;
+     width: 55%; 
+  }
+  @media screen and (max-width: 800px) {
+    #image { width: 70% } 
+  } 
+  
+  #img-caption {
+    font-size: 1.5vw;
+    margin: 15px 0px 40px;
+    font-style: italic;
+    background-color: rgba(161, 161, 161, 0.6);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20%;
+  }
+  
+  #tribute-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161, 161, 161, 0.6);
+    font-size: 1.1vw;
+    color: white;
+    text-align: center;
+    border-radius: 15%;
+  }
+  @media screen and (max-width: 800px) {
+    #tribute-info { font-size: 1.5vw; } 
+  } 
+  
+  #button {
+    background-image: url("https://static.tvtropes.org/pmwiki/pub/images/tenacious_d_tribute.jpg");
+    background-size: cover;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 15%;
+  }
+  #button:hover {
+    box-shadow: 3px 8px 12px 5px rgba(197, 131, 218, 0.25);
+  }
+  @media screen and (max-width: 800px) {
+    #button { height: 150px;} 
+  } 
+  
+  #tribute-link {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 20px 175px;
+    color: black;
+  }
+  @media screen and (max-width: 800px) {
+    #tribute-link { font-size: 12px; padding: 0px 12px 125px;} 
+  } 
+  
