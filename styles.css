@@ -1,9 +1,7 @@
 body {
     background-image: url("https://www.filepicker.io/api/file/bFmSonQ5Tqu3bkpZXgfH/convert?cache=true&crop=0%2C0%2C1919%2C1080");
     background-repeat: repeat-y;
-    background-repeat: repeat-y;
     background-size: auto 100%;
-    color: white;
     font-family: system-ui;
     text-align: center;
   }
@@ -31,6 +29,7 @@ body {
   
   #title {
     font-size: 5vw;
+    color: white;
   }
   
   #image {
@@ -52,6 +51,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 20%;
+    color: white;
   }
   
   #tribute-info {
